@@ -10,7 +10,26 @@ body{
     letter-spacing: 0.1px;
 }
 
+/* a{
+    text-decoration: none;
+    color:  black;
+} */
+.resolve a{
+    font-size: 14px;
+    padding: 15px 32px;
+   
+}
 
+.resolve{
+    margin-top: 0;
+}
+
+.con{
+    background-image: url(../image/first\ one.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .container{
     width: 90%;
     margin: 0 auto;
@@ -137,8 +156,7 @@ body{
     align-items: center;
 }
 
-
-.ancor-real a{
+a{
     padding: 15px 60px;
     background:  rgb(4, 30, 55);
     font-size: 20px;
@@ -149,7 +167,13 @@ body{
     text-decoration: none;
 }
 
-.ancor-real a:hover{
+.ancor-real a{
+    color: black;
+    background-color: white;
+}
+
+
+a:hover{
     color: black;
     background-color: white;
 }
